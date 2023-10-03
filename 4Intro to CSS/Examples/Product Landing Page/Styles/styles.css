@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccccc;
+    /* background-image: url("../Images/bottle.avif"); */
+    /* background-repeat: repeat;
+    background-size: contain; */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #444;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+ul{
+    list-style-position: inside; /* Place the bullet inside the list item */
+}
+
+#welcome-message {
+    text-align: center;
+}
+
+#main-image{
+    height: 200px;
+}
+
+.pricing-card {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+
+

@@ -1,2 +1,9 @@
 *.pptx
 *.pdf
+*.docx
+*.zip
+.vscode/
+*.drawio
+
+0Module Intro/
+1HTML tags/

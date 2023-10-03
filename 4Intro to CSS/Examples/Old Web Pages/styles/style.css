@@ -1,0 +1,103 @@
+body {
+    background-color: #ffcc66;
+    color: #ff00ff; /* Bright pink text for that "cringe" look */
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+}
+
+.header {
+    background-color: #6600cc;
+    padding: 20px;
+    color: #00ff00; /* Neon green text */
+}
+
+.header h1 {
+    color: #ffff00; /* Yellow text */
+    font-size: 40px; /* Enlarged text */
+    animation: sparkle 3s infinite; /* Text sparkles */
+}
+
+.content {
+    background: linear-gradient(45deg, #ff3399, #3399ff); /* Gradient background */
+    padding: 20px;
+    border: 5px dotted #ff00ff; /* Dotted border */
+    text-align: left;
+}
+
+.content p {
+    text-align: justify;
+    animation: rainbowText 6s infinite; /* Text colors change like a rainbow */
+}
+
+.content img {
+    width: 300px;
+    border: 5px solid #ff00ff;
+    animation: spinImage 4s infinite; /* Image rotates */
+}
+
+.content ul {
+    list-style-type: square;
+    color: #ff00ff;
+}
+
+.link {
+    color: #00ccff; /* Light blue link color */
+    text-decoration: underline; /* Underlined links */
+}
+
+.link:hover {
+    color: #ff00ff; /* Pink link color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.footer {
+    background: url('sparkles.gif') repeat; /* Sparkly background */
+    padding: 10px;
+    color: #00ff00; /* Neon green text */
+    font-size: 14px; /* Smaller text size */
+    animation: sparkle 3s infinite; /* Text sparkles */
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        color: #ffff00; /* Yellow text */
+    }
+    50% {
+        color: #ff00ff; /* Pink text */
+    }
+}
+
+@keyframes rainbowText {
+    0% {
+        color: #ff0000; /* Red */
+    }
+    20% {
+        color: #ff9900; /* Orange */
+    }
+    40% {
+        color: #ffff00; /* Yellow */
+    }
+    60% {
+        color: #00ff00; /* Green */
+    }
+    80% {
+        color: #00ccff; /* Light Blue */
+    }
+    100% {
+        color: #9933ff; /* Purple */
+    }
+}
+
+@keyframes spinImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+p{
+    color: cornflowerblue;
+}

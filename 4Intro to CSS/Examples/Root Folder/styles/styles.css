@@ -1,0 +1,37 @@
+/* Comment line */
+body {
+  font-family: Verdana, serif;
+}
+
+p {
+    color: red;
+    text-align: center;
+  }
+
+  /* Comment Line */
+
+h2, p{
+  text-decoration: underline;
+}
+
+.container{
+  border-style: dashed;
+  border-color: black;
+}
+
+.element{
+  text-decoration: underline;
+}
+
+#first{
+  background-color: #1a1717;
+  color: #fff;
+  text-decoration: none;
+  border-style: none;
+}
+
+.gap{
+  height: 1200px;
+  width: 50px;
+  background-color: darkgreen;
+}
