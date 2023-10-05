@@ -1,0 +1,30 @@
+
+.chat-container{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: #e4e3e3;
+}
+.sent{
+    text-align: right;
+    border-color: #d9fdd3;
+    background-color: #d9fdd3;
+}
+
+.received{
+    border-color: #f7f7fb;
+    background-color: #f7f7fb;
+}
+.message{
+    border-style: solid;
+    border-radius: 5px;
+}
+
+img{
+    height: 24px;
+}
+
+.user{
+    /* Bold text has a font weight = 700 */
+    font-weight: 700; 
+}
