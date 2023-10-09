@@ -19,11 +19,13 @@ th, td {
 }
 .shadowed{
     color: #fff;
-    text-shadow: 2px 2px #000;
+    text-shadow: 1px 1px #000;
     background-color: #432534;
+
 }
 header{
     text-align: center;
+    
 }
 .final-message{
     text-align: right;
