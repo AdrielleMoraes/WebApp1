@@ -1,0 +1,47 @@
+
+body{
+    background-color: #E6E8E6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+}
+
+header{
+    text-align: center;
+    
+}
+a{
+    color: #E6E8E6;
+}
+img{
+    height: 50px;
+}
+
+.lec-name{
+    text-align: right;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.shadowed{
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    background-color: #420217;
+
+}
+
+.final-message{
+    text-align: right;
+}
+
+
+
+

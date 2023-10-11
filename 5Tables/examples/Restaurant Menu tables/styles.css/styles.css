@@ -7,8 +7,9 @@ table{
     width: 100%;
 
 }
-img{
+td img{
     height: 50px;
+    margin: auto;
 }
 th, td {
     border: 1px solid #000;
