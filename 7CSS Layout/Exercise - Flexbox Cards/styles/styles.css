@@ -1,0 +1,58 @@
+body{
+    color: #fff;
+}
+
+header{
+    margin: 10px;
+    background-color: #293241;
+    line-height: 100px;
+    text-align: center;
+}
+
+.intro{
+    margin: 10px;
+    background-color: #293241;
+    padding: 50px;
+    font-size: 14pt;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #0070cc;
+    border: 1px solid #0070cc;
+    border-radius: 40px;
+
+}
+
+.card{
+    flex: 300px;
+    border: 1px solid #ccc;
+    padding: 16px 16px 30px 16px;
+    border-radius: 8px;
+    margin:10px;
+    background-color: #293241;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px;  /* Round the top corners of the image */
+}
+
+.card-description{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.card-year{
+    font-style: italic;
+}
