@@ -1,0 +1,70 @@
+body {
+    margin: 10px;
+}
+
+header {
+    background: #274c77;
+    height: 100px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+h2 {
+    color: #274c77;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+/* Add your flexbox CSS below here */
+
+section {
+    display: flex;
+    flex-direction: row;    /*Experiment using row-reverse, column and column-reverse*/
+
+
+    flex-wrap: wrap;
+}
+
+.article {
+    background: #e7ecef;
+
+
+    flex: 200px;
+    /* Experiment resizing the window */
+}
+
+/* Nav section */
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+nav {
+    
+    background-color: #274c77;
+    height: 100px;
+    margin: 0 10px;
+    
+    display: flex;
+    align-items: center; /* Experiment with flex-start and flex-end */
+
+    justify-content: space-between; /*space-between when having the logo to the left*/
+}
+
+#logo {
+    height: 50px;
+    margin-left: 20px;
+}
+

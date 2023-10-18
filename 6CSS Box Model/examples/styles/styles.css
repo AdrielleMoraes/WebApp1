@@ -1,0 +1,62 @@
+/* Start with this */
+div{
+    width: 200px;
+    text-align: center;
+}
+
+/* Border Example */
+.border-top{
+    border-top: 2px dotted black;
+}
+
+.border-bottom{
+    border-bottom: 2px dashed black;
+}
+
+.border-left{
+    border-left: 2px solid black;
+}
+
+.border-right{
+    border-right: 2px solid black;
+}
+
+/* Margin Example */
+.div-alone{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 75px;
+    margin-right: 50px;
+
+    /* this is the same as */
+    margin: 100px 50px 40px 75px;
+
+    /* Setting margin for top/bottom and left/right */
+    margin: 100px 75px;
+}
+
+/* Centred DIV - Try resizing the page to test */
+.div-centred{
+    margin: auto;
+    border: 1px dashed #04aa6d;
+}
+
+/* Negative margin */
+.broken-box {
+    border: 5px dashed red;
+    margin: -40px; /* This might be a problem */
+}
+
+.div-padding{
+    border: 5px double #04aa6d;
+    padding: 40px;
+
+    margin: 50px auto;
+}
+
+.single-box{
+    width: 320px;
+    padding: 20px;
+    border: 10px solid #04aa6d;
+    margin: 0;
+}

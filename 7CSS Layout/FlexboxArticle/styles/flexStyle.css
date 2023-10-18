@@ -1,0 +1,34 @@
+body {
+    margin: 10px;
+}
+
+header {
+    background: #274c77;
+    height: 100px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+h2 {
+    color: #274c77;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.article {
+    background: #e7ecef;
+}
+
+
+
+
