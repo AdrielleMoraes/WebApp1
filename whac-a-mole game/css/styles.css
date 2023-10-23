@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #00a9ff;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+
+body{
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  font-size: 2rem;
+  width: 160;
+  height: 40px;
+  background: #ff59cd;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  border-color: rgba(255,255,255,0);
+}
+
+.disabledBtn{
+  background: #ff59cdb2;
+  color: #ffffffb2;
+}
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background: #b159ff;
+} 
+
+.result #score {
+  background: rgba(255,255,255,0.2);
+  padding: 0 3rem;
+  line-height: 1;
+  border-radius: 1rem;
+}
+
+#game-board {
+
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: url('../images/hammer.png'),auto;
+  }
+    
+  .punched-mole{
+    background-image: url("../images/Punchedmole.png");
+    z-index: -2;
+
+    width: 80%;
+    height: 80px;
+    margin: 0 10% 0 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 4px;
+  }
+  .mole {
+    width: 80%;
+    height: 80px;
+    margin: 0 10% 0 10%;
+    background-image: url("../images/mole.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 4px;
+    z-index: 10;
+  }
+
+  .hole {
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .hole::after {
+    display: block;
+    background-image: url("../images/HoleP1.png");
+    background-size: contain;
+    content: '';
+    width: 80%;
+    height:60px;
+
+    position: absolute;
+    z-index: -100;
+    bottom: -30px;
+    margin: 0 10% 0 10%;
+  }
+
+
+
+  /* Define the mole animation */
+@keyframes glide-up {
+  from {
+    transform: translateY(100%); /* Start position */
+  }
+  to {
+    transform: translateY(10%); /* End position */
+  }
+}
+
+/* Apply the animation to the element */
+.mole, .punched-mole {
+  animation: glide-up 0.2s ease-out; /* Duration, timing function */
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/JavaScript" src="./scripts/main.js"></script>
+
+    <title>Whac-a-mole Game</title>
+</head>
+<body>
+    <h1>Whac-a-mole Game!</h1>
+    <div>
+        <button  id="startBtn">Start</button>
+        <button class="disabledBtn" disabled id="restartBtn">Restart</button>
+    </div>
+    <div >
+        <label for="isInfinite">Game Over?</label>
+        <input type="checkbox" id="isInfinite">
+        
+    </div>
+    <div class="result" >Score: <span id="score">0</span></div>
+    <div id="message" > </div>
+    <div id="game-board">
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+    </div>
+</body>
+</html>

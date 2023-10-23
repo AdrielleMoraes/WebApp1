@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes in css</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <!-- hover -->
+    <h2>:hover</h2>
+    <button>
+        Click me!
+    </button>
+    <hr>
+
+    <!-- Visited -->
+    <h2>:visited</h2>
+    <a href="">click me!</a>
+    <a href="this is determined by your browser's history">I was never clicked!</a>
+    <hr>
+
+    <!-- First child 1 -->
+    <h2>:first-child</h2>
+    <div>
+        <p>This text is selected!</p>
+        <p>This text isn't selected.</p>
+    </div>
+
+    <div>
+        <span>This text isn't selected: it's not a `p`.</span>
+        <p>This text isn't selected.</p>
+    </div>
+
+    <hr>
+
+    <!-- First child 2 -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>
+            Item 3
+            <ul>
+                <li>Item 3.1</li>
+                <li>Item 3.2</li>
+                <li>Item 3.3</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+    <!-- nth-child() -->
+    <h2>:nth-child() and :active</h2>
+    <table>
+        <tr>
+            <th>First </th>
+            <th>Second</th>
+            <th>Third</th>
+        </tr>
+        <tr>
+            <td>First Column, First row</td>
+            <td>Second Column, First row</td>
+            <td>Third Column, First row </td>
+        </tr>
+        <tr>
+            <td>First Column, Second row</td>
+            <td>Second Column, Second row</td>
+            <td>Third Column, Second row </td>
+        </tr>
+        <tr>
+            <td>First Column, Third row</td>
+            <td>Second Column, Third row</td>
+            <td>Third Column, Third row </td>
+        </tr>
+        <tr>
+            <td>First Column, Fourth row</td>
+            <td>Second Column, Fourth row</td>
+            <td>Third Column, Fourth row </td>
+        </tr>
+        <tr>
+            <td>First Column, Fifth row</td>
+            <td>Second Column, Fifth row</td>
+            <td>Third Column, Fifth row </td>
+        </tr>
+        <tr>
+            <td>First Column, Sixth row</td>
+            <td>Second Column, Sixth row</td>
+            <td>Third Column, Sixth row </td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- @media -->
+    <h2>@media</h2>
+    <div id="responsive-div"></div>
+</body>
+
+</html>

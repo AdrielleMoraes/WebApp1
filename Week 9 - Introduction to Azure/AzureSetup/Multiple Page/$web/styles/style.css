@@ -1,0 +1,10 @@
+.w3-third{
+    text-align: right;
+}
+
+.error_image{
+    height:400px; 
+    background-image: url("https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}

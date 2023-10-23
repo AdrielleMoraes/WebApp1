@@ -1,0 +1,99 @@
+button:hover {
+    background-color: green;
+}
+
+/* Visited */
+a:visited {
+    color: red;
+
+    /* This never works */
+    text-shadow: 2px 2px blue;
+}
+
+a {
+    /* text-shadow: 2px 2px green; */
+}
+
+/* first child - Example 1 */
+p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+}
+
+
+/* first child - Example 2 */
+li {
+    color: blue;
+}
+
+li:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+
+}
+
+
+/* table tr:nth-child(3) {
+    background-color: rgb(187, 184, 184);
+} */
+
+table td:nth-child(2n+1),
+table th:nth-child(2n+1) {
+    background-color: darkred;
+}
+
+table td:active {
+    background-color: yellow;
+}
+
+#responsive-div {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+@media (max-width: 320px) {
+
+    /* Styles for small phones */
+    #responsive-div {
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+    /* Styles for large phones */
+    #responsive-div {
+        height: 50;
+        width: 50;
+        background-color: red;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* Styles for tablets in portrait mode */
+    #responsive-div {
+        height: 75;
+        width: 75;
+        background-color: pink;
+    }
+}
+
