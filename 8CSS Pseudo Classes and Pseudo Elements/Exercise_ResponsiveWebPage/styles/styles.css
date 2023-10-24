@@ -9,8 +9,21 @@ table {
    margin: auto;
 }
 
+tr td:first-child{
+    min-width: 200px;
+}
 
-.pricing-table tr:nth-child(2n+3) {
+
+/* Exercise starts here */
+
+/* Change the background color of  odd rows*/
+/* Add a hover effect to the first td element of each row */
+/* Add a hover effect to the button to change is background color */
+/* Set display none to the top left cell. This element already has a class defined in the html file */
+/* Set display none to all th and td elements except the tds in the first column */
+
+/* Don't forget to apply other styles to change colour, text-decoration, padding, etc. */
+.pricing-table tr:nth-child(2n+1) {
     background-color: #f4f4f457;
 }
 
@@ -29,10 +42,6 @@ th, tr td:first-child {
 tr td:first-child:hover{
     background-color: #444; 
     color: #fff;
-}
-
-tr td:first-child{
-    min-width: 200px;
 }
 
 
@@ -72,12 +81,9 @@ img{
 
 
 /* Responsiveness */
-@media (max-width: 600px) {
-    th{
-        display: none;
-    }
+@media (max-width: 800px) {
 
-    tr td:not(:first-child){
+    th, td:not(:first-child){
         display: none;
     }
 
