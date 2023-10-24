@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+   border-collapse: collapse; 
+   width: 80%;
+   margin: auto;
+}
+
+
+.pricing-table tr:nth-child(2n+3) {
+    background-color: #f4f4f457;
+}
+
+
+td, th{
+    border: 1px solid #f4f4f4;
+    min-width: 200px;
+    padding: 20px;
+}
+
+
+th, tr td:first-child {
+    background-color: #f4f4f4;
+}
+
+tr td:first-child:hover{
+    background-color: #444; 
+    color: #fff;
+}
+
+tr td:first-child{
+    min-width: 200px;
+}
+
+
+.no-border{
+    border: none;
+    background-color: #fff;
+}
+
+
+
+.plan-original-price{
+    text-decoration: line-through;
+    color: rgb(201, 0, 0);
+}
+
+.plan-savings {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+button {
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #E57C00;
+}
+
+img{
+    height: 24px;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    th{
+        display: none;
+    }
+
+    tr td:not(:first-child){
+        display: none;
+    }
+
+    tr td{
+        border: 4px solid #fff;
+        width: 100%;
+    }
+}
