@@ -16,9 +16,18 @@ td, th{
     padding: 20px;
 }
 
+table tr:nth-child(1){
+    background-color: #ccc;
+}
 
-.no-border{
+
+/* .no-border{
     border: none;
     background-color: #fff;
+} */
+
+div{
+    height: 50px; 
+    width: 100%;
 }
 

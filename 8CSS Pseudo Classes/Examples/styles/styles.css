@@ -5,13 +5,12 @@ button:hover {
 /* Visited */
 a:visited {
     color: red;
-
     /* This never works */
     text-shadow: 2px 2px blue;
 }
 
 a {
-    /* text-shadow: 2px 2px green; */
+    text-shadow: 2px 2px green;
 }
 
 /* first child - Example 1 */
@@ -33,14 +32,12 @@ li:first-child {
 }
 
 
-
-
 table {
     border-collapse: collapse;
 }
 
-td,
-th {
+
+td,th {
     border: 1px solid black;
 
 }
@@ -59,6 +56,17 @@ table td:active {
     background-color: yellow;
 }
 
+/* Combination of pseudo classes */
+
+table td:first-child:hover{
+    background-color: blue;
+}
+
+/* :not() */
+th:not(:first-child){
+    text-decoration: line-through;
+}
+
 #responsive-div {
     height: 100px;
     width: 100px;
@@ -66,13 +74,15 @@ table td:active {
 }
 
 @media (max-width: 320px) {
-
-    /* Styles for small phones */
     #responsive-div {
         height: 25px;
         width: 25px;
         background-color: orange;
     }
+    /* Hide element for small phones only*/
+    .hidden-element {
+        display: none;
+    } 
 }
 
 

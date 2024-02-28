@@ -1,0 +1,20 @@
+/* Select by tag name */
+body{
+    text-align: center;
+}
+
+/* Classes that we can use later */
+.warning{
+    color: #c00000;
+}
+
+.images{
+    height: 90px;
+    width: 90px;
+}
+
+.hidden{
+    display: none;
+}
+
+

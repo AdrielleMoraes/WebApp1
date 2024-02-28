@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Volume Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="w3-margin">
+	<h3 class="w3-row w3-teal w3-center">Volume Calculator</h3>
+
+	<div class="w3-row">
+		<div class="w3-third">
+			<label class="w3-large">Select a shape to calculate its volume:</label>
+		</div>
+		<div class="w3-twothird">
+			<select class="w3-padding w3-border w3-select" name="select" id="select">
+				<option value="none"></option>
+				<option value="pyramid">Right Rectangular Pyramid</option>
+				<option value="cylinder">Cylinder</option>
+				<option value="cube">Cube</option>
+			</select>
+		</div>
+	</div>
+	<div class="w3-row w3-section">
+		<div class="w3-half">
+			<img id="image">
+		</div>
+		<div class="w3-half w3-container">
+			<div>
+				<h4 id="errormessage" class="hidden w3-yellow w3-padding w3-center">
+					Input is not valid
+				</h4>
+			</div>
+			<div class="" id="none"></div>
+			<table class="w3-table w3-bordered hidden" id="cylinder">
+				<tr>
+					<td>Height &#40;cm&#41;</td>
+					<td><input type="text" id="cylinder_height" /></td>
+				</tr>
+				<tr>
+					<td>Radius &#40;cm&#41;</td>
+					<td><input type="text" id="cylinder_radius" /></td>
+				</tr>
+				<tr>
+					<td>Volume &#40;cm<sup>3</sup>&#41;</td>
+					<td><input type="text" id="cylinder_result" disabled="true" /></td>
+				</tr>
+			</table>
+
+			<table class="w3-table w3-bordered hidden" id="cube">
+				<tr>
+					<td>Edge &#40;cm&#41;</td>
+					<td><input type="text" id="cube_edge" /></td>
+				</tr>
+				<tr>
+					<td>Volume &#40;cm<sup>3</sup>&#41;</td>
+					<td><input type="text" id="cube_result" disabled="true" /></td>
+				</tr>
+			</table>
+
+			<table class="w3-table w3-bordered hidden" id="pyramid">
+				<tr>
+					<td>Base length &#40;cm&#41;</td>
+					<td><input type="text" id="pyramid_length" /></td>
+				</tr>
+				<tr>
+					<td>Base width &#40;cm&#41;</td>
+					<td><input type="text" id="pyramid_width" /></td>
+				</tr>
+				<tr>
+					<td>Pyramid height &#40;cm&#41;</td>
+					<td><input type="text" id="pyramid_height" /></td>
+				</tr>
+				<tr>
+					<td>Volume &#40;cm<sup>3</sup>&#41;</td>
+					<td><input type="text" id="pyramid_result" disabled="true" /></td>
+				</tr>
+			</table>
+
+			<div class="w3-center w3-section">
+				<input class="w3-button w3-black hidden" type="button" id="reset_btn" value="Reset" />
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="jscripts/VolumeCalculator.js"></script>
+</body>
+
+</html>

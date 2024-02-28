@@ -13,6 +13,11 @@ tr td:first-child{
     min-width: 200px;
 }
 
+td, th{
+    border: 1px solid #f4f4f4;
+    /* min-width: 200px; */
+    padding: 20px;
+}
 
 /* Exercise starts here */
 
@@ -23,34 +28,9 @@ tr td:first-child{
 /* Set display none to all th and td elements except the tds in the first column */
 
 /* Don't forget to apply other styles to change colour, text-decoration, padding, etc. */
-.pricing-table tr:nth-child(2n+1) {
-    background-color: #f4f4f457;
+img{
+    height: 24px;
 }
-
-
-td, th{
-    border: 1px solid #f4f4f4;
-    min-width: 200px;
-    padding: 20px;
-}
-
-
-th, tr td:first-child {
-    background-color: #f4f4f4;
-}
-
-tr td:first-child:hover{
-    background-color: #444; 
-    color: #fff;
-}
-
-
-.no-border{
-    border: none;
-    background-color: #fff;
-}
-
-
 
 .plan-original-price{
     text-decoration: line-through;
@@ -74,10 +54,25 @@ button:hover {
     background-color: #E57C00;
 }
 
-img{
-    height: 24px;
+.pricing-table tr:nth-child(2n+1) {
+    background-color: #f4f4f457;
 }
 
+
+th, tr td:first-child {
+    background-color: #f4f4f4;
+}
+
+tr td:first-child:hover{
+    background-color: #444; 
+    color: #fff;
+}
+
+
+.no-border{
+    border: none;
+    background-color: #fff;
+}
 
 
 /* Responsiveness */
