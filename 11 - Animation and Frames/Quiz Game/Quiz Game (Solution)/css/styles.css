@@ -1,0 +1,35 @@
+.option, p{
+    color: #002f60;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button.option{
+    width: 100%;
+    text-align: left;
+}
+
+.correct-option{
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    
+}
+
+.incorrect-option{
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.expired-option{
+    color: rgb(192,152,83);
+    border: 1px solid rgb(251,238,213);
+    background-color: rgb(252,248,227);
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,11 @@
+body{
+    font-size: 60px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 7px;
+    color: #17D4FE; 
+    background-color: black;
+}
+
+button{
+    font-size: 20px; 
+}

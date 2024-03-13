@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body class="w3-container w3-center">
+    <h1>JS Timer</h1>
+    <label for="minutes">Minutes:</label>
+    <input type="number" min="0" max="10" step="1" id="minutes" value="1">
+
+    <label for="seconds">Seconds:</label>
+    <input type="number" min="0" max="60" step="1" id="seconds" value="0">
+    <div class="w3-section">
+        <button class="w3-button w3-round w3-green" id="start_btn">Start</button>
+        <button class="w3-button w3-round w3-red" id="stop_btn" disabled>Stop</button>
+    </div>
+
+    <div class="w3-padding w3-light-blue w3-text-white w3-xlarge"  id="timerDisplay">00:00</div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

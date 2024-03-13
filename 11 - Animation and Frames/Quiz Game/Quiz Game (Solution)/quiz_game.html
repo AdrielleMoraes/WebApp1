@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quiz game</title>
+</head>
+
+<body>
+
+    <!-- Info Box -->
+    <div class="w3-container ">
+        <h1>Quiz Application</h1>
+        
+        <div>
+            <button id="start-btn" class="w3-button w3-green w3-round">Start</button>
+        </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="w3-card w3-margin w3-padding hidden" id="quiz-box">
+        <div class="w3-row w3-padding-top-24">
+
+            <!-- Question element -->
+            <div class="w3-twothird">
+                <h2 id="question-title">Question title</h2>
+            </div>
+
+            <!-- Try implementing this as a challenge! (remove the hidden class) -->
+            <div class="w3-third w3-right-align">
+                <span class="option w3-round ">Time Left
+
+                    <!-- time left -->
+                    <span id="time-left" class="w3-dark-grey w3-text-white w3-padding-small w3-round"> 15 </span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="w3-light-grey w3-margin-top">
+            <div id="progress-bar" class="w3-blue" style="height:12px;width:5%"></div>
+        </div>
+
+        <div id="option_list">
+            <!-- Here I've inserted options from JavaScript -->
+            <button class="option w3-margin-top" id="option-0"></button>
+            <button class="option w3-margin-top" id="option-1"></button>
+            <button class="option w3-margin-top" id="option-2"></button>
+            <button class="option w3-margin-top" id="option-3"></button>
+
+        </div>
+
+
+        <!-- footer of Quiz Box -->
+        <hr>
+        <footer class="w3-row">
+            <div class="w3-half">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+                <span id="question-counter">1</span> out of 5 Questions
+            </div>
+            <div class="w3-half w3-right-align">
+                <!-- next question button -->
+                <button id="next-btn" class="w3-button w3-blue w3-round">Next Question</button>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div id="results-box" class="w3-center w3-large hidden">
+        <!-- Here I've inserted Score Result from JavaScript -->
+        You got <span id="score">0</span> out of 5 Questions
+    </div>
+
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

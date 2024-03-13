@@ -1,0 +1,25 @@
+#game-board {
+    width: 500px;
+    height: 400px;
+    background-color: #663300;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hole {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .mole {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/mole.png");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
