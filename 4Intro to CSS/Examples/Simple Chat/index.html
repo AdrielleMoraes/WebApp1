@@ -56,6 +56,8 @@
     </div>
 
     <!-- page footer -->
-    <footer> &#169; 2023   </footer>
+    <footer> &#169; <span id="year"></span>   </footer>
+
+    <script>document.getElementById("year").innerText = new Date().getFullYear();</script>
 </body>
 </html>
