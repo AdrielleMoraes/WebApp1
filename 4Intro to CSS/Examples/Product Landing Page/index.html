@@ -69,8 +69,10 @@
     </div>
 
     <footer>
-        <p>2023 Awesome Product</p>
+        <p> <span id="year"></span> Awesome Product</p>
     </footer>
+
+    <script>document.getElementById("year").innerText = new Date().getFullYear();</script>
 </body>
 
 </html>
