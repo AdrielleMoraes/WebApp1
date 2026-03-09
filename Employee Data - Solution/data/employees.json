@@ -1,0 +1,56 @@
+[
+    {"name": "Alice Johnson", "department": "Retail Sales", "monthlySales": 5000, "yearlySales": 60000},
+    {"name": "Bob Smith", "department": "Retail Sales", "monthlySales": 4500, "yearlySales": 54000},
+    {"name": "Charlie Brown", "department": "Retail Sales", "monthlySales": 7000, "yearlySales": 84000},
+    {"name": "David Wilson", "department": "Retail Sales", "monthlySales": 6500, "yearlySales": 78000},
+    {"name": "Emma Davis", "department": "Retail Sales", "monthlySales": 6200, "yearlySales": 74400},
+    
+    {"name": "Frank Harris", "department": "Corporate Sales", "monthlySales": 9000, "yearlySales": 108000},
+    {"name": "Grace Lee", "department": "Corporate Sales", "monthlySales": 8500, "yearlySales": 102000},
+    {"name": "Henry White", "department": "Corporate Sales", "monthlySales": 9100, "yearlySales": 109200},
+    {"name": "Isabella Scott", "department": "Corporate Sales", "monthlySales": 8800, "yearlySales": 105600},
+    {"name": "Jack Moore", "department": "Corporate Sales", "monthlySales": 8700, "yearlySales": 104400},
+  
+    {"name": "Kelly Taylor", "department": "Online Sales", "monthlySales": 5300, "yearlySales": 63600},
+    {"name": "Leo Martinez", "department": "Online Sales", "monthlySales": 5500, "yearlySales": 66000},
+    {"name": "Mia Anderson", "department": "Online Sales", "monthlySales": 5800, "yearlySales": 69600},
+    {"name": "Nathan Thomas", "department": "Online Sales", "monthlySales": 6000, "yearlySales": 72000},
+    {"name": "Olivia Hall", "department": "Online Sales", "monthlySales": 6200, "yearlySales": 74400},
+  
+    {"name": "Peter Allen", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Quinn Young", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Ryan King", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Sophia Green", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Tommy Adams", "department": "Admin", "monthlySales": null, "yearlySales": null},
+  
+    {"name": "Uma Baker", "department": "Retail Sales", "monthlySales": 7200, "yearlySales": 86400},
+    {"name": "Victor Nelson", "department": "Retail Sales", "monthlySales": 7400, "yearlySales": 88800},
+    {"name": "Wendy Carter", "department": "Retail Sales", "monthlySales": 7600, "yearlySales": 91200},
+    {"name": "Xander Roberts", "department": "Retail Sales", "monthlySales": 7800, "yearlySales": 93600},
+    {"name": "Yasmine Clark", "department": "Retail Sales", "monthlySales": 8000, "yearlySales": 96000},
+  
+    {"name": "Zachary Lewis", "department": "Corporate Sales", "monthlySales": 9300, "yearlySales": 111600},
+    {"name": "Abigail Walker", "department": "Corporate Sales", "monthlySales": 9500, "yearlySales": 114000},
+    {"name": "Benjamin Hill", "department": "Corporate Sales", "monthlySales": 9700, "yearlySales": 116400},
+    {"name": "Charlotte Robinson", "department": "Corporate Sales", "monthlySales": 9900, "yearlySales": 118800},
+    {"name": "Daniel Perez", "department": "Corporate Sales", "monthlySales": 10100, "yearlySales": 101200},
+  
+    {"name": "Eleanor Scott", "department": "Online Sales", "monthlySales": 6400, "yearlySales": 76800},
+    {"name": "Freddie Morgan", "department": "Online Sales", "monthlySales": 6600, "yearlySales": 79200},
+    {"name": "Georgia Wright", "department": "Online Sales", "monthlySales": 6800, "yearlySales": 81600},
+    {"name": "Harvey Brooks", "department": "Online Sales", "monthlySales": 7000, "yearlySales": 84000},
+    {"name": "Isla Bennett", "department": "Online Sales", "monthlySales": 7200, "yearlySales": 86400},
+  
+    {"name": "Jackie Sanders", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Kevin Foster", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Lillian Gray", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Miles Ward", "department": "Admin", "monthlySales": null, "yearlySales": null},
+    {"name": "Nora Hughes", "department": "Admin", "monthlySales": null, "yearlySales": null},
+  
+    {"name": "Owen Bell", "department": "Retail Sales", "monthlySales": 8200, "yearlySales": 98400},
+    {"name": "Paige Murphy", "department": "Retail Sales", "monthlySales": 8400, "yearlySales": 130800},
+    {"name": "Quentin Russell", "department": "Retail Sales", "monthlySales": 8600, "yearlySales": 103200},
+    {"name": "Rose Simmons", "department": "Retail Sales", "monthlySales": 8800, "yearlySales": 105600},
+    {"name": "Steven Jenkins", "department": "Retail Sales", "monthlySales": 9000, "yearlySales": 108000}
+  ]
+  
